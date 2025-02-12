@@ -566,7 +566,7 @@ const e = {
         create(t, a) {
             return {
                 x: t,
-                y: a ? ? t
+                y: a ?? t
             }
         },
         copy(t) {
@@ -908,7 +908,7 @@ const e = {
     };
 
 function te(t, a) {
-    if (!t) throw a instanceof Error ? a : new Error(a ? ? "Assertation failed")
+    if (!t) throw a instanceof Error ? a : new Error(a ?? "Assertation failed")
 }
 
 function Fe(t, a, o) {
