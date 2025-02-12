@@ -12215,7 +12215,7 @@ class ks {
             r = (P.uiLayout == P.UiLayout.Sm ? .15 : .2) * 1.25,
             a = t.equipped ? 655350 : 1,
             m = t.mapSprite;
-        if (m.pos = h.copy(t.pos), m.scale = r, m.alpha = 1, m.zOrder = a, m.visible = !0, m.sprite.texture = X.from((o = i.mapIndicator) == null ? void 0 : o.sprite), m.sprite.tint = ((n = i.mapIndicator) == null ? void 0 : n.tint) ? ? 16777215, (p = i.mapIndicator) != null && p.pulse) {
+        if (m.pos = h.copy(t.pos), m.scale = r, m.alpha = 1, m.zOrder = a, m.visible = !0, m.sprite.texture = X.from((o = i.mapIndicator) == null ? void 0 : o.sprite), m.sprite.tint = ((n = i.mapIndicator) == null ? void 0 : n.tint) ?? 16777215, (p = i.mapIndicator) != null && p.pulse) {
             const d = t.pulseSprite;
             d.pos = h.copy(t.pos), d.scale = 1, d.zOrder = a - 1, d.visible = !0, d.sprite.texture = X.from("part-pulse-01.img"), d.sprite.tint = i.mapIndicator.pulseTint
         }
