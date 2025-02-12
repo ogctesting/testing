@@ -25,7 +25,7 @@ import {
     s as zr,
     g as br,
     A as kr
-} from "./vendor-DI5YnaFM.js";
+} from "https://cdn.jsdelivr.net/gh/ogctesting/testing/vendor-DI5YnaFM.js";
 import {
     G as N,
     a as F,
@@ -84,7 +84,7 @@ import {
     a0 as Me,
     a1 as Nt,
     a2 as Qt
-} from "https://cdn.jsdelivr.net/gh/ogctesting/testing/shared-CLLToCHh.js";
+} from "https://cdn.jsdelivr.net/gh/ogctesting/testing@b7855e4/shared-CLLToCHh.js";
 (function() {
     const e = document.createElement("link").relList;
     if (e && e.supports && e.supports("modulepreload")) return;
